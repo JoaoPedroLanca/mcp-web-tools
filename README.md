@@ -8,6 +8,10 @@ MCP (Model Context Protocol) server for LM Studio that provides tools for intern
 - fetch_url: performs HTTP GET and returns content-type and body (limited)
 - extract_readable: extracts the main readable content from a page
 
+<a href="https://glama.ai/mcp/servers/@JoaoPedroLanca/mcp-web-tools">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@JoaoPedroLanca/mcp-web-tools/badge" alt="Web Tools Server MCP server" />
+</a>
+
 ### Requirements
 
 - Node.js 18+
