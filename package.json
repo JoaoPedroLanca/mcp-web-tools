@@ -1,0 +1,19 @@
+{
+    "name": "mcp-web-tools-server",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "description": "MCP server for LM Studio providing internet search and web fetch tools",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node src/server.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.2.0",
+        "@mozilla/readability": "^0.5.0",
+        "jsdom": "^25.0.0",
+        "undici": "^6.19.8",
+        "zod": "^3.23.8"
+    }
+}
