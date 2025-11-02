@@ -70,6 +70,19 @@ In "cwd" put the project Path
   - input: `{ "url": string }`
   - output: text with title, byline, summary and main content
 
+### Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/JoaoPedroLanca/mcp-web-tools.git
+cd mcp-web-tools
+npm install
+npm start
+```
+
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue)](https://github.com/JoaoPedroLanca/mcp-web-tools/archive/refs/heads/main.zip)
+
 ### Notes
 
 - Very large responses are truncated (16MB by default) to avoid exceeding client limits.
